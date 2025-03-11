@@ -73,3 +73,27 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## プロジェクト作成
+
+```bash
+curl https://get.volta.sh | bash
+
+source ~/.zshrc
+
+volta install node@22.9.0
+
+node -v
+
+npx nuxi init frontend
+```
+
+## 起動
+
+```bash
+# 依存関係をインストール（初回のみ）
+npm install
+
+# Nuxt.js を開発モードで起動
+npm run dev
+```
